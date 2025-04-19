@@ -102,4 +102,4 @@ Este proyecto está bajo la licencia incluida en el archivo LICENSE.
 
 ## Contacto
 - **Desarrollador**: Jorge Andrés Robledo Ariza
-- **Repositorio**: [GitHub](https://github.com/usuario/repo)
+- **Repositorio**: [GitHub](https://github.com/jorge-robledo11/Data-Validation)
