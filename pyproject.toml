@@ -1,26 +1,15 @@
 [project]
 name = "venv-data-validation"
 version = "0.1.0"
-description = "Proyecto Data Validation con Python 3.12.9"
-authors = [
-    {name = "Jorge Andrés Robledo Ariza"}
-]
+description = "Add your description here"
 readme = "README.md"
-requires-python = "3.12.9"
+requires-python = ">=3.12.9"
 dependencies = [
-    "pandas (>=2.2.3,<3.0.0)",
-    "pandera (>=0.23.1,<0.24.0)",
-    "joblib (>=1.4.2,<2.0.0)"
+    "joblib>=1.5.0",
+    "pandera>=0.23.1",
 ]
 
-
-[build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
-build-backend = "poetry.core.masonry.api"
-
-[tool.poetry]
-package-mode = false
-
-[tool.poetry.group.dev.dependencies]
-jupyter = "^1.1.1"
-
+[dependency-groups]
+dev = [
+    "jupyter>=1.1.1",
+]
